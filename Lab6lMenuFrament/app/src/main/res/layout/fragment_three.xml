@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1DE9B6"
+    tools:context=".ThreeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Fragment Three"
+        android:textSize="30sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="364dp">
+
+        <ImageView
+            android:id="@+id/chai"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="View"
+            android:textSize="50sp" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnClickFragTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO BACK MY FRAGMENT"/>
+
+</LinearLayout>

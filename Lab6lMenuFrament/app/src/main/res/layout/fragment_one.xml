@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#A2F069"
+tools:context=".TwoFragment">
+
+<!-- TODO: Update blank fragment layout -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="This is Fragment One"
+    android:textSize="30sp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="364dp">
+
+    <ImageView
+        android:id="@+id/chai"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/ACR2"
+        android:layout_centerInParent="true"
+        android:src="@drawable/acr" />
+
+    <TextView
+        android:id="@+id/ACR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ACR"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/ACR2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ACR"
+        android:layout_centerHorizontal="true"
+        android:text="613020023-3"
+        android:textSize="50sp" />
+</RelativeLayout>
+<!--    <Button-->
+<!--        android:id="@+id/btnClickFragOne"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="GO BACK MY FRAGMENT"/>-->
+
+</LinearLayout>
